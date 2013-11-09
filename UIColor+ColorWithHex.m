@@ -108,6 +108,12 @@
 	return color;
 }
 
++ (UIColor *)colorWithHexString:(NSString *)hexadecimal alpha:(CGFloat)alpha
+{
+    UIColor *color = [self colorWithHexString:hexadecimal];
+    return [color colorWithAlphaComponent:alpha];
+}
+
 // deprecated: Use 'hexStringFromColor:' instead.
 + (NSString *)colorWithRGBToHex:(UIColor *)color
 {
