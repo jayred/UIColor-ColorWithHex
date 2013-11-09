@@ -35,6 +35,7 @@
 // Convert hexadecimal value to RGB
 + (UIColor *)colorWithHex:(UInt32)hexadecimal;
 + (UIColor *)colorWithHexString:(NSString *)hexadecimal;
++ (UIColor *)colorWithHexString:(NSString *)hexadecimal alpha:(CGFloat)alpha;
 
 // Convert hexadecimal value to RGB
 // format:
