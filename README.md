@@ -8,6 +8,7 @@ Methods
 
 + + (UIColor *)colorWithHex:(UInt32)hexadecimal;
 + + (UIColor *)colorWithHexString:(NSString *)hexadecimal;
++ + (UIColor *)colorWithHexString:(NSString *)hexadecimal alpha:(CGFloat)alpha;
 + + (UIColor *)colorWithAlphaHex:(UInt32)hexadecimal;
 + + (UIColor *)colorWithAlphaHexString:(NSString *)hexadecimal;
 + + (NSString *)hexStringFromColor: (UIColor *)color;
